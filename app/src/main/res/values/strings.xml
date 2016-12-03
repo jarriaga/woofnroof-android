@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">WoofnRoof</string>
+    <string name="loginscreen_welcome_message">Welcome to WoofnRoof</string>
+    <string name="loginscreen_signup_facebook">Sign up with Facebook </string>
+    <string name="loginscreen_signup_email">Sign up with Email</string>
+    <string name="loginscreen_already">Already Registered?</string>
+    <string name="loginscreen_termns">By signing up, I agree to WoofnRoof terms of service, payments terms of service, privacy policy, guest refund policy and host guarantee terms.</string>
+    <string name="loginscreen_loginhere">Login here</string>
+
+    <string name="requiredscreen_looksgood">Looks good?</string>
+    <string name="requiredscreen_copy">Make sure your information is correct before continuing</string>
+    <string name="requiredscreen_name_label">name</string>
+    <string name="requiredscreen_email_label">email</string>
+    <string name="requiredscreen_phone_label">phone</string>
+    <string name="requiredscreen_birthday_label">birthday</string>
+    <string name="requiredscreen_continue">create account</string>
+
+
+
+
+    <string name="error_required_phone">phone number is required!</string>
+    <string name="error_required_name">name is required!</string>
+    <string name="error_required_email">email is no valid!</string>
+    <string name="error_name_length">name must has at least 3 characters</string>
+
+
+
+    <string name="facebook_app_id">1794683837412639</string>
+</resources>
