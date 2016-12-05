@@ -103,8 +103,8 @@ public class LoginScreen extends AppCompatActivity {
                                                     }); //End woofnRoofAPI call
 
                                                 }else{
-                                                    //Launch MainScreen
-                                                    Intent intent = new Intent(getApplicationContext(),MainScreen.class);
+                                                    //Launch MainActivity
+                                                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
                                                     startActivity(intent);
                                                     finish();
                                                 }

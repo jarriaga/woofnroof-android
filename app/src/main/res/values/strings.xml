@@ -16,14 +16,17 @@
     <string name="requiredscreen_continue">create account</string>
 
 
-
-
     <string name="error_required_phone">phone number is required!</string>
     <string name="error_required_name">name is required!</string>
     <string name="error_required_email">email is no valid!</string>
     <string name="error_name_length">name must has at least 3 characters</string>
 
 
-
     <string name="facebook_app_id">1794683837412639</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>

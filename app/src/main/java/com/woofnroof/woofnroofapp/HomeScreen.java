@@ -7,7 +7,7 @@ import android.transition.TransitionInflater;
 
 import com.facebook.login.LoginManager;
 
-public class MainScreen extends AppCompatActivity {
+public class HomeScreen extends AppCompatActivity {
 
     @Override
     protected void onResume() {
@@ -25,7 +25,7 @@ public class MainScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setupWindowAnimations();
-        setContentView(R.layout.activity_main_screen);
+        setContentView(R.layout.activity_home_screen);
 
         LoginManager loginManager = LoginManager.getInstance();
         loginManager.logOut();

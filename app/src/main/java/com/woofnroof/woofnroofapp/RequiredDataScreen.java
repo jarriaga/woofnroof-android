@@ -64,8 +64,8 @@ public class RequiredDataScreen extends AppCompatActivity {
                         public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                             try{
                                 String successMsg = response.getString("success");
-                                //Launch MainScreen
-                                Intent intent = new Intent(getApplicationContext(),MainScreen.class);
+                                //Launch MainActivity
+                                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
                                 startActivity(intent);
                                 finish();
                             }catch (JSONException e){

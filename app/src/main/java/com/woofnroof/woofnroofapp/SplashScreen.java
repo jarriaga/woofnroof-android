@@ -68,7 +68,7 @@ public class SplashScreen extends AppCompatActivity {
 
     /**
      * Method to Log in a user using the tokenWoof
-     * and get the new refreshed token  and Launch the MainScreen
+     * and get the new refreshed token  and Launch the HomeScreen
      * @param tokenWoof
      */
     private void loginTokenWoof(final String tokenWoof) {
@@ -81,8 +81,8 @@ public class SplashScreen extends AppCompatActivity {
                 try{
                     //Get the new token and store the new refreshed token
                     User.storeTokenWoof(response.getString("token"));
-                    //Launch MainScreen
-                    Intent intent = new Intent(getApplicationContext(),MainScreen.class);
+                    //Launch MainActivity
+                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
                     startActivity(intent);
                     finish();
 
